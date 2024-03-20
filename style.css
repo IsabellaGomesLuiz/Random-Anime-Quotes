@@ -1,0 +1,81 @@
+body {
+    background-color: #171619;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+#btnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inspireButton {
+    cursor: pointer;
+    color: white;
+    background-color: #EB2182;
+    height: 50px;
+    width: 200px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+#quote,
+#character,
+#anime,
+#synopsis {
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#quoteDiv {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#quote {
+    text-align: center;
+    font-size: 18px;
+}
+
+#character {
+    margin-top: 15px;
+    text-align: right;
+}
+
+#infoContainer {
+    display: flex;
+    align-items: top; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#infoContainer #infoDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#infoContainer #infoDiv #anime {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
